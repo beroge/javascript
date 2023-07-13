@@ -7,16 +7,22 @@
     <title>Page Title</title>
 </head>
 <body>
-    <p id="demo">
+    <p id="demo"> </p>
         <p id="demo1"></p>
-    </p>
+        <p id="demo2"></p>
+   
     <script>
         console.log("Hello World!");
         let x= .2 + .1;
         document.getElementById("demo").innerHTML = ".2 + .1 = " + x.toFixed(4);
         let myNumber = x;
         myNumber = Number(x) + 3;
-        document.getElementById("demo1").innerHTML = myNumber
+        document.getElementById("demo1").innerHTML = myNumber;
+        let myCounter = ++myNumber;
+        if (myNumber < 10
+        );
+{        document.getElementById("demo2").innerHTML = myCounter;
+    }
     </script>
 </body>
 </html>
