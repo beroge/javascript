@@ -17,6 +17,7 @@
     <p id="demo"></p>
     <p id="demo1"></p>
     <p id="demo2"></p>
+    <p id="demo3"></p>
 
     <h1 class="trigger" data-target=".target1">Hover over me!</h1>
     <p class="target target1">Original text 1</p>
@@ -27,6 +28,14 @@
     
 
     <script>
+      const a = (4+6+9) / 77;
+      document.getElementById('demo3').innerHTML = a + 4 + " big number";
+
+      let counter = 1;
+let c = ++counter; // (*)
+
+    console.log(c); // 2
+      
       console.log("Hello World!");
       let x = 0.2 + 0.1;
       document.getElementById("demo").innerHTML = ".2 + .1 = " + x.toFixed(4);
@@ -81,6 +90,8 @@ function handleMouseOut(event) {
 }
 
 
+console.log(23 + 97);
+console.log(1+2+3+4+5+6);
 
     </script>
   </body>
