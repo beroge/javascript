@@ -9,8 +9,8 @@
   width: calc(33% - 1em);
   max-height: 3.5em;
   margin: 0.5em;
-  padding: 1em;
-  background: #ad1f36;
+  padding: 1.5em; /*  Adjust this accordingly, too little causes hidden text to show */
+  background: #3223d3;
   color: white;
   float: left;
   overflow: hidden;
@@ -28,10 +28,11 @@
 .slides .slide > a {
   display: block;
   padding-bottom: 1em;
-  font-family: "Oswald";
+  font-family: "Roboto", sans-serif;
+
   text-transform: uppercase;
   text-decoration: none;
-  color: #ec93a2;
+  color: #fff;
   transition: color 2s;
 }
 .slides .slide.active {
@@ -54,7 +55,7 @@
   box-sizing: border-box;
 }
 
-html, body {
+/* html, body {
   width: 100%;
   height: 100%;
 }
@@ -68,7 +69,7 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 2em;
   line-height: 1.5;
-}
+} */
 
 .container {
   width: 90%;
