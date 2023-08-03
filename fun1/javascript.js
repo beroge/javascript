@@ -37,6 +37,7 @@ let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz
 
 for (let i = 1; i <= answer; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
+  
     console.log ("FizzBuzz");
   }
   else if (i % 3 === 0) {
@@ -45,5 +46,8 @@ for (let i = 1; i <= answer; i++) {
     console.log("Buzz");
   } else {
     console.log(i);
+    getElementById("var1"){
+    element.innerHTML = i;
+    }
   }
 }
