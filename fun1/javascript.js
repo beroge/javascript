@@ -37,17 +37,17 @@ let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz
 
 for (let i = 1; i <= answer; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
-  
-    console.log ("FizzBuzz");
-  }
-  else if (i % 3 === 0) {
+    console.log("FizzBuzz");
+  } else if (i % 3 === 0) {
     console.log("Fizz");
   } else if (i % 5 === 0) {
     console.log("Buzz");
   } else {
     console.log(i);
-    getElementById("var1"){
+    // Using document.getElementById to get the element with id "var1"
+    let element = document.getElementById("var1");
+    // Assigning the value of i to the innerHTML property of the element
     element.innerHTML = i;
-    }
   }
 }
+
